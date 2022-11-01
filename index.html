@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-    
+
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
+
 
     <title>Fortunate CV</title>
 
@@ -35,13 +35,17 @@
             margin: -30px 0 0 0;
         }
 
-        h1 {
+        .fn h1 {
             margin: 0 0 16px 0;
             padding: 0 0 16px 0;
             font-size: 42px;
             font-weight: bold;
             letter-spacing: -2px;
             border-bottom: 1px solid #999;
+        }
+
+        p {
+            margin-top: 1rem;
         }
 
         h2 {
@@ -107,6 +111,7 @@
         dd {
             width: 600px;
             float: right;
+
         }
 
         dd.clear {
@@ -122,58 +127,77 @@
             color: #999;
             font-weight: normal;
         }
-        img
-        {
+
+        img {
+            
             height: 300px;
             width: 300px;
             border-radius: 400px;
-            
+
         }
-        table, th, td {
-        border:1px solid black;
-        width: 100px;
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            width: 100px;
         }
-        Photo1
+        .headFixed
         {
-         width: 100px;
-         height: 100px;
+            background-color: white;
+            width: 100%;
+            height: 30vh;
+            position: sticky;
+            top: 0;
+            z-index: 1;
         }
+
     </style>
-    
+
 
 <body>
 
     <div id="page-wrap">
 
-        <img src="https://cdn.discordapp.com/attachments/991593926463062116/1036558408456880138/IMG_20221031_102939_edit_1618325402975.jpg" alt="Photo of Cthulu" id="pic" />
+        <div class="headFixed">
 
-        <div id="contact-info" class="vcard">
 
-            <!-- Microformats! -->
 
-            <h1 class="fn">Fortunate Ntwanano Khumalo</h1>
+            <div id="contact-info" class="vcard">
+                
+            <img src="https://cdn.discordapp.com/attachments/991593926463062116/1036558408456880138/IMG_20221031_102939_edit_1618325402975.jpg"
+            alt="Photo of Cthulu" id="pic" />
 
-            <p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                  </svg>   Cell: <span class="tel">067-008-2146 (SMS)</span><br />
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                  </svg> Email: <a class="email" href="">fortunate.ntwanano@gmail.com</a>
-            </p>
+                <!-- Microformats! -->
+
+                <h1 class="fn">Fortunate Ntwanano Khumalo</h1>
+
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-telephone" viewBox="0 0 16 16">
+                        <path
+                            d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg> Cell: <span class="tel">067-008-2146 (SMS)</span><br />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                    </svg> Email: <a class="email" href="">fortunate.ntwanano@gmail.com</a>
+                </p>
+            </div>
+
+            <div id="objective">
+                <p>
+                    I am a Competent , punctual , dedicated and hard work individual. I like working
+                    team member and indpendence career that fits my professional skills, personality, and we can support
+                    each other. i believe i communicate effectively , and highly efficient and planning and processing
+                    work.
+                    I can bring world domination to your organization.
+                </p>
+            </div>
         </div>
-
-        <div id="objective">
-            <p>
-                I am a Competent , punctual , dedicated and hard work individual. I like working
-                team member and indpendence career that fits my professional skills, personality, and we can support
-                each other. i believe i communicate effectively , and highly efficient and planning and processing work.
-                I can bring world domination to your organization.
-            </p>
-        </div>
-
         <div class="clear"></div>
-
+        <!-- ------------------------------------------------------------------------------------------------------------------------------ -->
         <dl>
             <dd class="clear"></dd>
 
@@ -225,21 +249,28 @@
             <dt>Skills</dt>
             <dd>
                 <h2>HTML skills</h2>
-                <p>Our HTML maker provides integration with Social Media, Google Maps, Google Fonts, Icons, YouTube, Contact Forms, and many other built-in powerful features. Use our WYSIWYG editor and code generator to launch websites and customize easily with visual drag-and-drop builder.</p>
-                <img src="https://th.bing.com/th/id/R.edda1ee1504d5aa79d8dd36f0995c1eb?rik=HCrtj4G2dXRiZA&riu=http%3a%2f%2fwww.webdevelopmenthelp.net%2fwp-content%2fuploads%2f2015%2f09%2fHTML55.png&ehk=X3r%2bc5eqpu9JimzprHKOCnjxnkFadKuqmw3x6uUJn6Y%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" class="img-funn" alt=""/>
-               <br><br>
+                <p>Our HTML maker provides integration with Social Media, Google Maps, Google Fonts, Icons, YouTube,
+                    Contact Forms, and many other built-in powerful features. Use our WYSIWYG editor and code generator
+                    to launch websites and customize easily with visual drag-and-drop builder.</p>
+                <img src="https://th.bing.com/th/id/R.edda1ee1504d5aa79d8dd36f0995c1eb?rik=HCrtj4G2dXRiZA&riu=http%3a%2f%2fwww.webdevelopmenthelp.net%2fwp-content%2fuploads%2f2015%2f09%2fHTML55.png&ehk=X3r%2bc5eqpu9JimzprHKOCnjxnkFadKuqmw3x6uUJn6Y%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
+                    class="img-funn" alt="" />
+                <br><br>
                 <h2>Computer skills</h2>
                 <p>Microsoft productivity software (Word, Excel, etc), Adobe Creative Suite, Windows.</p>
-                <img src="https://th.bing.com/th/id/OIP.zrBaBqu-2lqfMM7gMT4MvQHaHa?w=179&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"class="img-funn" alt=""/>
+                <img src="https://th.bing.com/th/id/OIP.zrBaBqu-2lqfMM7gMT4MvQHaHa?w=179&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                    class="img-funn" alt="" />
                 <br><br>
                 <h2>CSS skills</h2>
                 <p>CSS saves a lot of work. It can control the layout of multiple web pages all at once</p>
-                <img src="https://th.bing.com/th/id/R.2f81374d28080408b7d9765b97859458?rik=jYCXN1WKSdv0Ng&riu=http%3a%2f%2fbedford-computing.co.uk%2flearning%2fwp-content%2fuploads%2f2015%2f09%2fcss-logo.jpg&ehk=5ym4it70EjKCHJCGuLXMY6ncbEuramr0G9b1GQBuEk0%3d&risl=&pid=ImgRaw&r=0" class="img-funn" alt=""/>
-               <br><br>
-               <h2> GitHub skills</h2>
-                <p>a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code.two connected principles has Version control and Git</p>
-                <img src="https://th.bing.com/th/id/OIP.EgSPriuEnAtlIWJV8R_E1QHaGs?w=222&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="img-funn" alt=""/>
-            <br><br>
+                <img src="https://th.bing.com/th/id/R.2f81374d28080408b7d9765b97859458?rik=jYCXN1WKSdv0Ng&riu=http%3a%2f%2fbedford-computing.co.uk%2flearning%2fwp-content%2fuploads%2f2015%2f09%2fcss-logo.jpg&ehk=5ym4it70EjKCHJCGuLXMY6ncbEuramr0G9b1GQBuEk0%3d&risl=&pid=ImgRaw&r=0"
+                    class="img-funn" alt="" />
+                <br><br>
+                <h2> GitHub skills</h2>
+                <p>a website and cloud-based service that helps developers store and manage their code, as well as track
+                    and control changes to their code.two connected principles has Version control and Git</p>
+                <img src="https://th.bing.com/th/id/OIP.EgSPriuEnAtlIWJV8R_E1QHaGs?w=222&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                    class="img-funn" alt="" />
+                <br><br>
             </dd>
 
             <dd class="clear"></dd>
@@ -249,7 +280,7 @@
                 <h2> GPR Training Academy</h2>
                 <span id="font_span"> General Workers - Florence Riberiro Avenue Muckleneuk, Pretoria -2021 </span>
                 <br>
-        
+
                 <ul>
                     <li> I am training at GP retail Operation in( National Cerficate: Wholesale and Retail Distribution)
                     </li>
@@ -281,61 +312,61 @@
             <dd>
                 <table style="width:100%">
                     <tr>
-                      <th>Reference</th>
-                      <th>Name and Surname</th>
-                      <th>Company</th>
-                      <th>Job Title</th>
-                      <th>Contact Number</th>
+                        <th>Reference</th>
+                        <th>Name and Surname</th>
+                        <th>Company</th>
+                        <th>Job Title</th>
+                        <th>Contact Number</th>
                     </tr>
                     <tr>
-                      <td>01</td>
-                      <td>Mrs Melisha Moodley</td>
-                      <td>Digital Academy</td>
-                      <td>CEO</td>
-                      <td>061 544 9366</td>
+                        <td>01</td>
+                        <td>Mrs Melisha Moodley</td>
+                        <td>Digital Academy</td>
+                        <td>COO</td>
+                        <td>061 544 9366</td>
                     </tr>
-                        <td>02</td>
-                        <td>Mrs Pe</td>
-                        <td>GPR Training Academy</td>
-                        <td>Manager Leader</td>
-                        <td>083 256 2365</td>
-                      </tr>
-                      <tr>
+                    <td>02</td>
+                    <td>Mrs Pertunia</td>
+                    <td>GPR Training Academy</td>
+                    <td>Manager Leader</td>
+                    <td>083 256 2365</td>
+                    </tr>
+                    <tr>
                         <td>03</td>
                         <td>Mrs Esther Makuya</td>
                         <td>Sizwile School For the Deaf</td>
                         <td>Presedential Youth CEO</td>
                         <td>072 185 4629</td>
-                      </tr>
-                      <tr>
+                    </tr>
+                    <tr>
                         <td>04</td>
                         <td>Miss Precious Mnisi</td>
                         <td>Sizwile School For the Deaf</td>
                         <td>Supervising Teacher</td>
                         <td>071 768 3868</td>
-                      </tr>
-                      <tr>
+                    </tr>
+                    <tr>
                         <td>05</td>
                         <td>Mr Wonder Ndlovu</td>
                         <td>Future Coding</td>
                         <td>Head of R&D and Innovation</td>
                         <td>082 377 2020</td>
-                      </tr>
-                      <tr>
+                    </tr>
+                    <tr>
                         <td>06</td>
                         <td>Mrs Nazereen Captieux-Bhana</td>
                         <td>Employ+Employer Deaf cc (pty) ltd</td>
                         <td>Head of R&D and Innovation</td>
                         <td>082 377 2020</td>
-                      </tr>
-                      <tr>
+                    </tr>
+                    <tr>
                         <td>07</td>
                         <td>Mr Emmanuel Luvhimbi</td>
                         <td>Sizwile School For the Deaf</td>
                         <td>School of Principal</td>
                         <td>011 988 1017</td>
-                      </tr>
-                  </table>
+                    </tr>
+                </table>
             </dd>
 
             <dd class="clear"></dd>
