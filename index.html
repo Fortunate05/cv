@@ -36,6 +36,7 @@
             height: 300px;
             width: 286px;
             border-radius: 400px;
+            border: solid 5px #edcad0;
         }
 
         .fn h1 {
@@ -140,11 +141,15 @@
         }
 
         .headFixed {
-            background-color: white;
+            background-color: #f8f7f7;
+            padding: 1rem;
+            border-radius: 2rem;
             width: 100%;
-            height: 34vh;
-            position: sticky;
-            top: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
             z-index: 1;
         }
 
@@ -212,13 +217,8 @@
 
 
 
-            <div id="contact-info" class="vcard">
-
-                <img src="https://cdn.discordapp.com/attachments/991593926463062116/1036558408456880138/IMG_20221031_102939_edit_1618325402975.jpg"
-                    alt="Photo of Cthulu" id="pic" />
-
-                <!-- Microformats! -->
-
+            <div id="objective">
+                
                 <h1 class="fn">Fortunate Ntwanano Khumalo</h1>
 
                 <p>
@@ -233,9 +233,6 @@
                             d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
                     </svg> Email: <a class="email" href="">fortunate.ntwanano@gmail.com</a>
                 </p>
-            </div>
-
-            <div id="objective">
                 <p>
                     I am a Competent , punctual , dedicated and hard work individual. I like working
                     team member and indpendence career that fits my professional skills, personality, and we can support
@@ -244,6 +241,19 @@
                     I can bring world domination to your organization.
                 </p>
             </div>
+
+            <div id="contact-info" class="vcard">
+
+                <img src="https://cdn.discordapp.com/attachments/991593926463062116/1036558408456880138/IMG_20221031_102939_edit_1618325402975.jpg"
+                    alt="Photo of Cthulu" id="pic" />
+
+                <!-- Microformats! -->
+
+            </div>
+
+
+
+
         </div>
         <div class="clear"></div>
         <!-- ------------------------------------------------------------------------------------------------------------------------------ -->
@@ -460,7 +470,7 @@
             </div>
 
     </div>
-         </dd>
+    </dd>
 
 
 </body>
